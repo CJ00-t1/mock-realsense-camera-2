@@ -19,7 +19,7 @@ class MockRealsensePublisher(Node):
         self.declare_parameter('image_rate', 10.0)
 
         # Resolve package share directory
-        pkg_share = get_package_share_directory('mock_realsense_camera')
+        pkg_share = get_package_share_directory('mock_realsense_camera_2')
 
         # Default paths inside installed package
         default_rgb_folder = os.path.join(pkg_share, 'data', 'rgb')
