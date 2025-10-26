@@ -25,7 +25,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'mock_realsense_publisher = mock_realsense_camera.mock_realsense_publisher:main',
+            'mock_realsense_publisher = mock_realsense_camera_2.mock_realsense_publisher:main',
         ],
     },
 )
