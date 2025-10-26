@@ -4,7 +4,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package='mock_realsense_camera-2',
+            package='mock_realsense_camera_2',
             executable='mock_realsense_publisher',
             name='mock_realsense_publisher',
             output='screen',
