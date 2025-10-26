@@ -1,7 +1,7 @@
 from setuptools import setup
 from glob import glob
 
-package_name = 'mock_realsense_camera'
+package_name = 'mock_realsense_camera-2'
 
 setup(
     name=package_name,
