@@ -16,7 +16,7 @@ class MockRealsensePublisher(Node):
         self.declare_parameter('rgb_folder', 'data/rgb')
         self.declare_parameter('depth_folder', 'data/depth')
         self.declare_parameter('camera_info_path', 'config/realsense_camera_info.yaml')
-        self.declare_parameter('image_rate', 10.0)
+        self.declare_parameter('image_rate', 2.0)
 
         # Resolve package share directory
         pkg_share = get_package_share_directory('mock_realsense_camera_2')
